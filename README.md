@@ -1,7 +1,7 @@
 # SAN-PDF-Tool
 
 <p align="center">
-  <img src="images/main menu.jpg" alt="Main menu">
+  <img src="src/images/main menu.jpg" alt="Main menu">
 </p>
 
 
