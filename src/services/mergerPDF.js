@@ -55,40 +55,5 @@ const mergePDFs = async () => {
   }
 };
 
-
-// mergePDFs()
-
 export {mergePDFs,merger,currentTime}
 
-// const mergePDFs = async () => {
-//   try {
-//     let messageMerger;
-// const dateNow = await now();
-// const files = fs.readdirSync(path.join(__dirname, "..", "..", "input"));
-// const outputPath = path.join(__dirname, "..", "..", "output", "merged_result");
-
-//     if (!fs.existsSync(outputPath)) {
-//       fs.mkdirSync(outputPath, { recursive: true });
-//       console.log("created folder path...");
-//     }
-
-// let filesJoined = "";
-// for (const file of files) {
-//   const inputFiles = path.join(__dirname, "..", "..", "input") + `/${file}`;
-//   filesJoined += `"${inputFiles}"` + " ";
-// }
-//     const fileOutput = path.join(__dirname, "..", "..", "output", "merged_result", `${dateNow}_joined.pdf`);
-//     const gsCommand = `gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -sOutputFile="${fileOutput}" ${filesJoined}`;
-//     const { stderr } = await execPromise(gsCommand);
-//     if (stderr) {
-//       console.error(`Error when compressing PDF :, ${stderr}`);
-//       messageMerger = "merge error";
-//     }
-//     messageMerger = "merge successful";
-//     return messageMerger;
-//   } catch (err) {
-//     console.log(err);
-//   }
-// };
-
-// mergePDFs();
