@@ -1,7 +1,4 @@
 
 /node_modules
-/input_files
-/merged_result
-/compressed_result
-/converted_result
-/split_result
+/input
+/output
